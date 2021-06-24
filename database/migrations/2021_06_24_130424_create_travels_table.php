@@ -18,7 +18,7 @@ class CreateTravelsTable extends Migration
             $table->string('CodicePack',10);
             $table->string('Stato',50);
             $table->string('Citta',50);
-            $table->date('Quando');
+            $table->string('Quando',30);
             $table->float('Prezzo',10,2);
             $table->boolean('AnimalAccess')->default(1);
             $table->text('Descrizione')->nullable();
